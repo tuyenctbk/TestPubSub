@@ -53,7 +53,7 @@ public class PubSubActivity extends Activity {
     // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com
     private static final String CUSTOMER_SPECIFIC_ENDPOINT = "a8emptcpbzh47-ats.iot.ap-southeast-1.amazonaws.com";
     // Name of the AWS IoT policy to attach to a newly created certificate
-    private static final String AWS_IOT_POLICY_NAME = "MyPolicy";
+    private static final String AWS_IOT_POLICY_NAME = "AWSIoTPolicy";
 
     // Region of AWS IoT
     private static final Regions MY_REGION = Regions.AP_SOUTHEAST_1;
